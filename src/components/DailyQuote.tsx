@@ -1,0 +1,5 @@
+"use client";
+import {useEffect,useState} from "react";
+import {getDailyQuote} from "@/lib/dailyQuote";
+const months=["janar","shkurt","mars","prill","maj","qershor","korrik","gusht","shtator","tetor","nëntor","dhjetor"];
+export default function DailyQuote(){const [today,setToday]=useState<ReturnType<typeof getDailyQuote>|null>(null);useEffect(()=>{const update=()=>setToday(getDailyQuote());update();const timer=window.setInterval(update,60000);return()=>window.clearInterval(timer)},[]);const parts=today?.date.split("-").map(Number);return <section className="daily-quote shell" aria-labelledby="daily-quote-title"><div className="quote-side"><span id="daily-quote-title">Fjalia e ditës</span>{today&&parts&&<time dateTime={today.date}>{parts[2]} {months[parts[1]-1]} {parts[0]}</time>}</div><div className="quote-main"><span className="quote-glyph" aria-hidden="true">“</span><blockquote>{today?.quote??"Një mendim për leximin e sotëm…"}</blockquote><span className="quote-credit">Një mendim nga redaksia · ndryshon çdo ditë</span></div></section>}

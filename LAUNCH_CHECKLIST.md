@@ -9,6 +9,7 @@ The current repository is a visual and interaction prototype. Sample people and 
 - A WordPress administrator account for the editor, plus a recovery administrator.
 - Approved logo or permission to finalize the typographic mark shown in this prototype.
 - Approved articles, author names, biographies, categories, tags, translations, and any photography or illustrations, with usage rights.
+- Approved daily quotes and a policy for sourcing/attribution; approved book recommendations and edition details.
 - Instagram profile URL and permission to link to it.
 - Newsletter provider account, sender address, mailing list, consent wording and preferred signup process.
 - Analytics provider choice and privacy/consent requirements for the intended audience.

@@ -1,0 +1,4 @@
+import type {Metadata} from "next";
+import BookShelf from "@/components/BookShelf";
+export const metadata:Metadata={title:"Rekomandime librash",description:"Libra për t'u lexuar me kohë — nga letërsia shqipe dhe ajo botërore."};
+export default function BooksPage(){return <><div className="prototype-banner">Përzgjedhje ilustruese · Rekomandimet editoriale finalizohen para publikimit</div><section className="books-hero shell"><span className="small-label">Rafti i Marginalia</span><h1>Çfarë të lexojmë<br/><em>më pas?</em></h1><p>Një raft i vogël për kureshtarët. Zgjidhni një temë ose shfletoni pa plan; çdo libër është një ftesë, jo një detyrë.</p></section><section className="books-content shell"><div className="section-topline"><span>Rekomandime librash</span><span>Shqip & botë</span></div><BookShelf/></section></>}

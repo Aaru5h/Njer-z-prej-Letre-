@@ -13,6 +13,8 @@ An independent literary magazine that feels like a carefully printed object brou
 ## Homepage
 The first viewport acts as a magazine cover: oversized Albanian masthead, compact issue context and an abstract paper object. The latest feature crosses the lower edge of the cover. A quiet editorial sequence follows: lead story, latest writing, editorial statement, topic index, featured writers, submission invitation and newsletter.
 
+The daily editorial quote sits on a pale sage field and changes with the reader's local calendar date. The recommendations shelf uses muted clay, sage, blue and plum book objects. These colors recur sparingly in links and metadata, giving the site more variety while keeping long-form reading calm.
+
 ## Article page
 Category and reading time precede a large serif headline. The author and publication details sit above a narrow, comfortable reading column. Pull quotes and small marginal notes break the rhythm without fragmenting the essay. Related writing follows the article.
 

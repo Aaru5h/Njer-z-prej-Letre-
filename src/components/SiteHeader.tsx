@@ -8,7 +8,7 @@ import { CloseIcon, MenuIcon, SearchIcon } from "./Icons";
 const nav = [
   ["Letërsi", "/rubrika/letersi"], ["Zëra të rinj", "/rubrika/zera-te-rinj"],
   ["Diaspora", "/rubrika/diaspora"], ["Kritikë", "/rubrika/kritike"],
-  ["Ide & reflektime", "/rubrika/ide"],
+  ["Ide & reflektime", "/rubrika/ide"], ["Libra", "/libra"],
 ];
 
 export default function SiteHeader() {
