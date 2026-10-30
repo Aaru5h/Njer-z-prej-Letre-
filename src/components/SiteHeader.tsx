@@ -6,7 +6,7 @@ import { useState } from "react";
 import { CloseIcon, MenuIcon, SearchIcon } from "./Icons";
 
 const nav = [
-  ["Letërsi", "/rubrika/letersi"], ["Zëra të rinj", "/rubrika/zëra-te-rinj"],
+  ["Letërsi", "/rubrika/letersi"], ["Zëra të rinj", "/rubrika/zera-te-rinj"],
   ["Diaspora", "/rubrika/diaspora"], ["Kritikë", "/rubrika/kritike"],
   ["Ide & reflektime", "/rubrika/ide"],
 ];
