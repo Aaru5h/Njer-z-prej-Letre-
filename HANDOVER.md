@@ -1,6 +1,6 @@
 # Editor handover outline
 
-The WordPress CMS is planned and has not been provisioned for this prototype. These steps describe the editorial workflow to implement and verify before client handover.
+The WordPress CMS is planned and has not been provisioned for this prototype. The public site's `/admin` route will open the WordPress dashboard after `WORDPRESS_ADMIN_URL` is configured. WordPress owns login and content permissions. These steps describe the editorial workflow to implement and verify before client handover.
 
 ## Publish an article
 1. Sign in to the client-owned WordPress admin account.

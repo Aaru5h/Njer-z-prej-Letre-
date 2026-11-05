@@ -1,6 +1,6 @@
 # What is needed to publish
 
-The current repository is a visual and interaction prototype. Sample people and articles must be replaced before launch. The submission and newsletter forms validate locally but do not deliver or store data.
+The current repository is a visual and interaction prototype. The introductory Substack post is real client content; sample people and articles must be replaced before launch. The submission and newsletter forms validate locally but do not deliver or store data.
 
 ## Decisions and access from the client
 
@@ -19,6 +19,7 @@ The current repository is a visual and interaction prototype. Sample people and 
 ## Engineering before publication
 
 - Provision and secure WordPress; define article, author, category, tag, page and translation fields; create editor permissions and backups.
+- Point `/admin` to the live HTTPS WordPress dashboard with `WORDPRESS_ADMIN_URL`; enable two-factor authentication and login rate limits, then verify unauthenticated visitors reach the WordPress login and editors can sign in.
 - Replace `src/lib/content.ts` sample data with a typed WordPress API layer and draft preview.
 - Build private submission intake with file/link storage, spam protection, editor notification and review status. Never publish directly from a submission.
 - Connect the contact form and newsletter form to the chosen services; test inquiry delivery, newsletter confirmation and unsubscribe.
